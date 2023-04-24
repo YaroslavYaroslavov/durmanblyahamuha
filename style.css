@@ -1,0 +1,226 @@
+.slider-block {
+    display: flex;
+    /* justify-content: space-around; */
+    /* gap: 1000px; */
+    /* min-width: 0; */
+    background-color: red;
+}
+
+.image-slider__wrapper {
+    display: flex;
+}
+
+header {
+    margin-bottom: 56px;
+}
+
+.slider-block__slide {
+    /* flex: 0, 0, 300px; */
+    /* background-color: gray; */
+}
+
+html {
+    background: #FFEAD1;
+    overflow-x: hidden;
+}
+
+.navbar {
+    padding-top: 21px;
+    padding-bottom: 17px;
+    background: #FFA857;
+    display: flex;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.linkIcons {
+    display: flex;
+    gap: 21px;
+}
+
+.vk {
+    background: url(./content/free-icon-vkontakte-2190437\ 1.png);
+    width: 44px;
+    height: 44px;
+}
+
+.wtsp {
+    background: url(./content/whatsapp\ 1.png);
+    width: 44px;
+    height: 44px;
+}
+
+.tg {
+    background: url(./content/telegram\ 1.png);
+    width: 46px;
+    height: 44px;
+}
+
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #F39940;
+    border-radius: 9px;
+    width: 510px;
+    height: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbar {
+    display: flex;
+    background: #FFCB9B;
+    align-items: center;
+    /* gap: 130px; */
+    /* padding-left: 55vh; */
+    /* position: relative; */
+    justify-content: center;
+    height: 200px;
+}
+
+.microphoneImage {
+    position: absolute;
+    left: 510px;
+    mix-blend-mode: multiply;
+}
+
+.slider {
+    display: flex;
+    background: rgba(255, 168, 87, 0.9);
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 56px;
+}
+
+.sliderBTN {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 77px;
+}
+
+.blockServ {
+    display: flex;
+    justify-content: center;
+    background: #FFBC7F;
+    padding-top: 48px;
+    padding-bottom: 78px;
+}
+
+.headServ {
+    font-style: normal;
+    font-weight: 840;
+    font-size: 48px;
+    line-height: 58px;
+    border-bottom: 5px solid black;
+    display: inline-block;
+}
+
+.listServ {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    gap: 55px;
+}
+
+.cost {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 45px;
+    width: 342px;
+    background: #F8E4CE;
+    border-radius: 3px;
+    margin: auto;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 62px;
+}
+
+.border {
+    border-top: 9px solid #F39940;
+    border-bottom: 9px solid #F39940;
+}
+
+.nigger1 {
+    margin-top: 65px;
+    margin-left: 65px;
+}
+
+.headerAbout {
+    font-style: normal;
+    font-weight: 840;
+    font-size: 36px;
+    line-height: 58px;
+}
+
+.aboutLinks {
+    display: flex;
+    justify-content: space-around;
+    background: #FFBC7F;
+    margin-bottom: 48px;
+}
+
+.blockAbout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    background: #EFCFB1;
+}
+
+.copyright {
+    font-style: normal;
+    font-weight: 840;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 21px;
+}
+
+.infoFooter {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+    font-style: normal;
+    font-weight: 840;
+    font-size: 32px;
+    line-height: 38px;
+    right: 120px;
+}
+
+.icons {
+    display: flex;
+    gap: 40px;
+}
